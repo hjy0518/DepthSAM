@@ -18,3 +18,45 @@ Extensive experiments show that DepthSAM achieves new SOTA performance on three 
 <p align="center">
   <img src="Images/Figure2.png?raw=true" width="100%" />
 </p>
+
+### Dataset Preparation
+
+Downloading dataset: [GoogleDrive](https://drive.google.com/drive/folders/19MaIVAcqr8sIv0R1hIq7MZhPqO-9_s8v?usp=drive_link) and moving it into `./datasets`.
+
+Downloading pseudo labels from [GoogleDrive](https://drive.google.com/file/d/149Dh5OQnF1JBO2gzBkM4cj2jnJScRBys/view?usp=sharing) and moving it into `./datasets/cache/pseudo_label_cache`
+
+
+
+### Training
+The training stage for DepthSAM:
+```
+# For COD using Depth Anything v2 as backbone
+CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --nproc_per_node=4 train.py
+```
+
+**The training code of `CORAL` will be released  after the paper is published.**
+### Evaluation
+All checkpoints can be found in [GoogleDrive](https://pan.baidu.com/s/1BnOzQYb1OZAJCiaBIOjXdA?pwd=1234), 提取码: 1234.
+```
+python test.py
+```
+Performance of DepthSAM
+![alt text](Images/Table1.png)
+
+
+## Acknowledgements
+
+Our method builds upon a series of foundation models, including [SAM](https://github.com/facebookresearch/segment-anything) and [Depth Anything](https://github.com/DepthAnything/Depth-Anything-V2). Thanks for their excellent contributions.
+
+## Citing
+
+If you find our work interesting, please consider using the following BibTeX entry:
+
+```latex
+@INPROCEEDINGS{EASE,
+    author    = {Jinyu Han, Changguang Wu, Fuming Sun, Jinhui Tang},
+    title     = {Beyond Appearance: Camouflaged Object Detection via Geometric Structure},
+    booktitle = {CVPR},
+    year      = {2026}
+}
+```

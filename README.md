@@ -14,5 +14,5 @@ DepthSAM incorporates two core innovations: (1) a Sparse Mixture-of-Experts Adap
 Extensive experiments show that DepthSAM achieves new SOTA performance on three major benchmarks. For example, on COD10K, its $S_{\alpha}$ and $F_{\beta}^{\omega}$ metrics surpass the best competing methods by 3.0\% and 4.3\%, respectively.
 
 <p float="left">
-  <img src="figs/overview.jpg?raw=true" width="100%" />
+  <img src="Images/Figure2.png?raw=true" width="100%" />
 </p>

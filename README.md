@@ -23,25 +23,30 @@ Extensive experiments show that DepthSAM achieves new SOTA performance on three 
 
 Downloading dataset: [GoogleDrive](https://drive.google.com/drive/folders/19MaIVAcqr8sIv0R1hIq7MZhPqO-9_s8v?usp=drive_link) and moving it into `./datasets`.
 
-Downloading pseudo labels from [GoogleDrive](https://drive.google.com/file/d/149Dh5OQnF1JBO2gzBkM4cj2jnJScRBys/view?usp=sharing) and moving it into `./datasets/cache/pseudo_label_cache`
-
-
-
-### Training
-The training stage for DepthSAM:
-```
-# For COD using Depth Anything v2 as backbone
-CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --nproc_per_node=4 train.py
-```
-
-**The training code of `CORAL` will be released  after the paper is published.**
-### Evaluation
-All checkpoints can be found in [GoogleDrive](https://pan.baidu.com/s/1BnOzQYb1OZAJCiaBIOjXdA?pwd=1234), 提取码: 1234.
+### Prediction results
+All prediction results can be found in [Baidu Netdisk](https://pan.baidu.com/s/1PqmeqHECilBcJs98x_SuPg?pwd=1234), 提取码: 1234.
 ```
 python test.py
 ```
 Performance of DepthSAM
 ![alt text](Images/Table1.png)
+
+
+### Training
+The training stage for DepthSAM:
+```
+CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --nproc_per_node=4 train.py
+```
+
+**The training code of `CORAL` will be released  after the paper is published.**
+### Evaluation
+All checkpoints can be found in [Baidu Netdisk](https://pan.baidu.com/s/1BnOzQYb1OZAJCiaBIOjXdA?pwd=1234), 提取码: 1234.
+```
+python test.py
+```
+Performance of DepthSAM
+![alt text](Images/Table1.png)
+
 
 
 ## Acknowledgements

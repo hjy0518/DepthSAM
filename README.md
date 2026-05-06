@@ -25,12 +25,6 @@ Downloading dataset: [GoogleDrive](https://drive.google.com/drive/folders/19MaIV
 
 ### Prediction results
 All prediction results can be found in [Baidu Netdisk](https://pan.baidu.com/s/1PqmeqHECilBcJs98x_SuPg?pwd=1234), 提取码: 1234.
-```
-python test.py
-```
-Performance of DepthSAM
-![alt text](Images/Table1.png)
-
 
 ### Training
 The training stage for DepthSAM:

@@ -19,10 +19,6 @@ Extensive experiments show that DepthSAM achieves new SOTA performance on three 
   <img src="Images/Figure2.png?raw=true" width="100%" />
 </p>
 
-### Dataset Preparation
-
-Downloading dataset: [GoogleDrive](https://drive.google.com/drive/folders/19MaIVAcqr8sIv0R1hIq7MZhPqO-9_s8v?usp=drive_link) and moving it into `./datasets`.
-
 ### Prediction results
 All prediction results can be found in [Baidu Netdisk](https://pan.baidu.com/s/1PqmeqHECilBcJs98x_SuPg?pwd=1234), 提取码: 1234.
 

@@ -1,6 +1,6 @@
 # Beyond Appearance: Camouflaged Object Detection via Geometric Structure
 
-> [**Beyond Appearance: Camouflaged Object Detection via Geometric Structure**](https://cvpr.thecvf.com/virtual/2026/poster/36862)
+> [**Beyond Appearance: Camouflaged Object Detection via Geometric Structure**](https://openaccess.thecvf.com/content/CVPR2026/papers/Han_Beyond_Appearance_Camouflaged_Object_Detection_via_Geometric_Structure_CVPR_2026_paper.pdf)
 >
 > **CVPR 2026**
 >

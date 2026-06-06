@@ -48,10 +48,11 @@ Our method builds upon a series of foundation models, including [SAM](https://gi
 If you find our work interesting, please consider using the following BibTeX entry:
 
 ```latex
-@INPROCEEDINGS{EASE,
-    author    = {Jinyu Han, Changguang Wu, Fuming Sun, Jinhui Tang},
-    title     = {Beyond Appearance: Camouflaged Object Detection via Geometric Structure},
-    booktitle = {CVPR},
-    year      = {2026}
+@inproceedings{han2026beyond,
+    title={Beyond Appearance: Camouflaged Object Detection via Geometric Structure},
+    author={Han, Jinyu and Wu, Changguang and Sun, Fuming and Tang, Jinhui},
+    booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+    pages={25830--25840},
+    year={2026}
 }
 ```

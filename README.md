@@ -21,7 +21,7 @@ Extensive experiments show that DepthSAM achieves new SOTA performance on three 
 
 ### Prediction results
 All prediction results can be found in [Baidu Netdisk](https://pan.baidu.com/s/1PqmeqHECilBcJs98x_SuPg?pwd=1234), code: 1234.
-
+All prediction results can be found in [Google Drive](https://drive.google.com/file/d/1uS22ezSx04LWwPEjfgP6O9Vsjg7wSwK5/view?usp=drive_link).
 ### Training
 The training stage for DepthSAM:
 ```
@@ -31,6 +31,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --nproc_per_node=4 train.py
 **The training code of `CORAL` will be released  after the paper is published.**
 ### Evaluation
 All checkpoints can be found in [Baidu Netdisk](https://pan.baidu.com/s/1BnOzQYb1OZAJCiaBIOjXdA?pwd=1234), code: 1234.
+All checkpoints can be found in [Google Drive](https://drive.google.com/file/d/1vV1cuneDnKSvRo6BJMUtqpewmrmsPdXz/view?usp=drive_link).
 ```
 python test.py
 ```
